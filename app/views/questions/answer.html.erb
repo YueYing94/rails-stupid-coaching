@@ -1,0 +1,14 @@
+
+  <p><%= @question_input %></p>
+  <h2>-- You</h2>
+
+  <% if @question_input == "I am going to work" %>
+    <%= "Great" %>
+  <% elsif @question_input.end_with?("?") %>
+    <%= "Silly question, get dressed and go to work!" %>
+  <% else %>
+    <%= "I don't care, get dressed and go to work!" %>
+  <% end %>
+  <h2>-- Your coach</h2>
+
+  <%= link_to("Ask a new question", ask_path) %>
