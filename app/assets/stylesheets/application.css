@@ -13,3 +13,25 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+  margin: 40px;
+}
+
+.size {
+  width: 700px;
+}
+
+.answer-yellow {
+  padding: 10px;
+  background-color: rgb(255, 247, 236);
+  border-left: 0.25rem solid var(--bd-callout-border, var(--bs-gray-300));
+  margin-bottom: 10px;
+}
+
+.answer-grey {
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  border-left: 0.25rem solid var(--bd-callout-border, var(--bs-gray-300));
+  margin-bottom: 10px;
+}
